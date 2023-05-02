@@ -1,4 +1,4 @@
-##On maps
+# On maps
 
 One thing Karel implementers don't do in common is world mapping. An R developer did it this way:
 
@@ -19,6 +19,7 @@ mundo008 <- list(
 ```
 
 The developer doesn't seem to be accounting for a kid's desire to make his own worlds. From a C++ project, this is better:
+
 
 ```
 Dimension: (7, 5)
@@ -49,4 +50,3 @@ avenues 8
 beeper 4 2 1
 wall 5 2 west
 ```
-
