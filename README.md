@@ -11,7 +11,7 @@ Karel was adapted for object-oriented programming as [Karel++](https://csis.pace
 
 ## In the Age of Skynet
 
-[Is Karel still relevant?](https://talk.appletalk.com.au/t/beginners-programming-aka-is-karel-the-robot-still-relevant/2199) Kids today have a zillion extraordinary ways to learn programming — Scratch Blocksy, Roblox, Minecraft EE, online coding games — and Karel always had [issues](https://repository.brynmawr.edu/cgi/viewcontent.cgi?article=1034&context=compsci_pubs).
+[Is Karel still relevant?](https://talk.appletalk.com.au/t/beginners-programming-aka-is-karel-the-robot-still-relevant/2199) Kids today have a zillion extraordinary ways to learn programming — Scratch, Blocksy, Roblox, Minecraft EE, online coding games — and Karel always had [issues](https://repository.brynmawr.edu/cgi/viewcontent.cgi?article=1034&context=compsci_pubs).
 
 I asked ChatGPT is Karel still has a place in the world, and ChatGPT thought so (but if you've talked to it yourself, maybe you've also seen that it only has good words to say about anything). If you search the web for Karel-related content, you find that Karel still has value for those who find value in Karel. Karel is a relic, but so am I. Karel still has much to teach me, like Crystal. I aim to learn Crystal by implementing Karel in Crystal.
 
