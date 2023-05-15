@@ -49,3 +49,27 @@ Scenario: Turnoff
   When I turnoff
   Then I report a catastrophic failure
   Then I cannot accept further instruction
+
+Scenario Outline: Tests
+	Given I am awake
+	When I diagnose <state>
+	Then I should assess <boolean>
+  Examples:
+    | state     								| boolean								 		|
+    | front-is-clear						| front-is-clear				 		|
+    | front-is-blocked  				| front-is-blocked  				|	
+    | left-is-clear							| left-is-clear 						|
+    | left-is-blocked 					| left-is-blocked				    |
+    | right-is-clear						| right-is-clear 						|
+    | right-is-blocked				  | right-is-blocked				  |
+    | facing-north     				  | facing-north 							|
+    | not-facing-north 				  | not-facing-north				 	|
+    | facing-west      					| facing-west 							|
+    | not-facing-west   				| not-facing-west					 	|
+    | facing-south     				  | facing-south 							|
+    | not-facing-south  				| not-facing-south 					|
+    | facing-east       				| facing-east 							|
+    | not-facing-east 				  | not-facing-east  					|
+    | any-beepers-in-beeper-bag	| any-beepers-in-beeper-bag |
+    | no-beepers-in-beeper-bag	| no-beepers-in-beeper-bag  |
+ 
